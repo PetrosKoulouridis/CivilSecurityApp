@@ -1,0 +1,31 @@
+# IntelliJ IDEA-specific files
+.idea/*
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs and temporary files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Build output
+out/
+target/
+build/
+
+# OS-specific files (optional, but good practice)
+.DS_Store
+Thumbs.db
+
+# Maven and Gradle
+/.mvn/
+/.gradle/
+/build/
+
+# JetBrains Rider (if applicable)
+.idea_modules/
+*.sln.iml
