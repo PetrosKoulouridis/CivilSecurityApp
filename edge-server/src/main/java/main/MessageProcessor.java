@@ -92,10 +92,4 @@ public class MessageProcessor {
                 ", \"lng\":" + userLocation.getLongitude() + "}";
         SseBroadcaster.broadcast(jsonData);
     }
-
-    void broadcast(Record record) {
-        // Optionally, could add a broadcast method here
-        // TODO maybe : 1. Turn message to JSON
-        //              2. call SseBroadcaster.broadcast(jsonData); in order to broadcast changes to the front end
-    }
 }
